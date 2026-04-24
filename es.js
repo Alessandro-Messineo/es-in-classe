@@ -348,22 +348,42 @@ const message = "JavaScript è fantastico";
 
 // Stampa i nomi in maiuscolo
 
-const studenti = [
-  { nome: "mario", eta: 20 },
-  { nome: "luca", eta: 22 },
-  { nome: "chiara", eta: 19 }
+// const studenti = [
+//   { nome: "mario", eta: 20 },
+//   { nome: "luca", eta: 22 },
+//   { nome: "chiara", eta: 19 }
+// ];
+// // Usa forEach per stampare in console il nome di ogni studente con la prima lettera maiuscola (es. "Mario", "Luca", "Chiara").
+// // Output in console:
+
+// // text
+// // Mario
+// // Luca
+// // Chiara
+
+
+// studenti.forEach(stud => {
+//   const capitalized = stud.nome.charAt(0).toUpperCase() + stud.nome.slice(1);
+//   console.log(capitalized);
+// });
+
+
+// Crea un array con nome e prezzo scontato
+
+const prodotti = [
+  { nome: "Laptop", prezzo: 1000 },
+  { nome: "Mouse", prezzo: 25 },
+  { nome: "Tastiera", prezzo: 70 }
 ];
-// Usa forEach per stampare in console il nome di ogni studente con la prima lettera maiuscola (es. "Mario", "Luca", "Chiara").
-// Output in console:
+// Calcola per ogni prodotto il prezzo scontato del 10% e crea un nuovo array di oggetti con { nome, prezzoScontato }.
 
-// text
-// Mario
-// Luca
-// Chiara
+[
+  { nome: "Laptop", prezzoScontato: 900 },
+  { nome: "Mouse", prezzoScontato: 22.5 },
+  { nome: "Tastiera", prezzoScontato: 63 }
+]
 
 
-studenti.forEach(stud => {
-  const capitalized = stud.nome.charAt(0).toUpperCase() + stud.nome.slice(1);
-  console.log(capitalized);
-});
+const b =prodotti.map(e =>({nome: e.nome, prezzoScontato: e.prezzo-(e.prezzo*10)/100}))
 
+console.log(b);
