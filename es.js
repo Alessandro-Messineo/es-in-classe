@@ -291,12 +291,27 @@ const message = "JavaScript è fantastico";
 //Dato un array di numeri, restituisci un array con i quadrati dei numeri dispari.
 
 
-let num= [1, 2, 3, 4, 5];
-let a=[];
-for (let index = 0; index < num.length; index++) {
-    if(num[index] %2 ==1){
-        a.push(num[index] * num[index]);
-    }
-}
+// let num= [1, 2, 3, 4, 5];
+// let a=[];
+// for (let index = 0; index < num.length; index++) {
+//     if(num[index] %2 ==1){
+//         a.push(num[index] * num[index]);
+//     }
+// }
+
+// console.log(a);
+
+
+//Filtra i prodotti in stock
+
+const prodotti = [
+  { nome: "Laptop", inStock: true },
+  { nome: "Mouse", inStock: false },
+  { nome: "Tastiera", inStock: true },
+  { nome: "Monitor", inStock: false }
+];
+// Filtra solo i prodotti in magazzino (inStock: true).
+
+let a = prodotti.filter(e => e.inStock=== true);
 
 console.log(a);
