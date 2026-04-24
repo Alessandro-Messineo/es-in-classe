@@ -263,12 +263,26 @@ const message = "JavaScript è fantastico";
 
 // Dato un array di stringhe, restituisci un array con la lunghezza di ogni parola.
 
-let str = ["ciao", "javascript", "dev"];
-let a =[];
+// let str = ["ciao", "javascript", "dev"];
+// let a =[];
 
-for (let index = 0; index < str.length; index++) {
-    let lunghezza = str[index].length;
-    a.push(lunghezza);
-}
+// for (let index = 0; index < str.length; index++) {
+//     let lunghezza = str[index].length;
+//     a.push(lunghezza);
+// }
 
-console.log(a);
+// console.log(a);
+
+
+// Dato un array di oggetti utenti, trova il primo utente con età maggiore di 30.
+
+let a=
+[
+  { nome: "Luca", eta: 25 },
+  { nome: "Anna", eta: 32 },
+  { nome: "Marco", eta: 28 }
+]
+
+let b =a.find(e => e.eta>30);
+
+console.log(b);
