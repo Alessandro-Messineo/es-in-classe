@@ -320,13 +320,30 @@ const message = "JavaScript è fantastico";
 // Estrai i nomi dei prodotti
 // Dato lo stesso array prodotti, crea un array con solo i nomi dei prodotti.
 
-const prodotti = [
-  { nome: "Laptop", inStock: true },
-  { nome: "Mouse", inStock: false },
-  { nome: "Tastiera", inStock: true },
-  { nome: "Monitor", inStock: false }
+// const prodotti = [
+//   { nome: "Laptop", inStock: true },
+//   { nome: "Mouse", inStock: false },
+//   { nome: "Tastiera", inStock: true },
+//   { nome: "Monitor", inStock: false }
+// ];
+
+// let a = prodotti.map(e => e.nome);
+
+// console.log(a);
+
+
+// Trova il primo utente premium
+
+const utenti = [
+  { nome: "Luca", isPremium: false },
+  { nome: "Anna", isPremium: true },
+  { nome: "Marco", isPremium: false },
+  { nome: "Giada", isPremium: true }
 ];
 
-let a = prodotti.map(e => e.nome);
+let a = utenti.find(e=> e.isPremium === true);
 
 console.log(a);
+
+
+
