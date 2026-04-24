@@ -237,10 +237,25 @@ const message = "JavaScript è fantastico";
 /////////////////////////////////
 
 // stampa solo i pari
-let a = [1,2,3,5,6];
+// let a = [1,2,3,5,6];
 
-for(let i=0; i<a.length ; i++){
-    if(a[i] %2 ===0){
-        console.log(a[i])
+// for(let i=0; i<a.length ; i++){
+//     if(a[i] %2 ===0){
+//         console.log(a[i])
+//     }
+// }
+
+
+// Dato un array di numeri, crea un nuovo array con i numeri maggiori di 10.
+
+let num = [4, 12, 7, 25, 3, 18];
+
+let a = [];
+
+for(let i=0; i< num.length; i++){
+    if(num[i]>10){
+        a.push(num[i]);
     }
 }
+
+console.log(a);
