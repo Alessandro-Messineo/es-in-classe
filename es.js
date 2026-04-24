@@ -276,13 +276,27 @@ const message = "JavaScript è fantastico";
 
 // Dato un array di oggetti utenti, trova il primo utente con età maggiore di 30.
 
-let a=
-[
-  { nome: "Luca", eta: 25 },
-  { nome: "Anna", eta: 32 },
-  { nome: "Marco", eta: 28 }
-]
+// let a=
+// [
+//   { nome: "Luca", eta: 25 },
+//   { nome: "Anna", eta: 32 },
+//   { nome: "Marco", eta: 28 }
+// ]
 
-let b =a.find(e => e.eta>30);
+// let b =a.find(e => e.eta>30);
 
-console.log(b);
+// console.log(b);
+
+
+//Dato un array di numeri, restituisci un array con i quadrati dei numeri dispari.
+
+
+let num= [1, 2, 3, 4, 5];
+let a=[];
+for (let index = 0; index < num.length; index++) {
+    if(num[index] %2 ==1){
+        a.push(num[index] * num[index]);
+    }
+}
+
+console.log(a);
