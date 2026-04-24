@@ -248,14 +248,27 @@ const message = "JavaScript è fantastico";
 
 // Dato un array di numeri, crea un nuovo array con i numeri maggiori di 10.
 
-let num = [4, 12, 7, 25, 3, 18];
+// let num = [4, 12, 7, 25, 3, 18];
 
-let a = [];
+// let a = [];
 
-for(let i=0; i< num.length; i++){
-    if(num[i]>10){
-        a.push(num[i]);
-    }
+// for(let i=0; i< num.length; i++){
+//     if(num[i]>10){
+//         a.push(num[i]);
+//     }
+// }
+
+// console.log(a);
+
+
+// Dato un array di stringhe, restituisci un array con la lunghezza di ogni parola.
+
+let str = ["ciao", "javascript", "dev"];
+let a =[];
+
+for (let index = 0; index < str.length; index++) {
+    let lunghezza = str[index].length;
+    a.push(lunghezza);
 }
 
 console.log(a);
