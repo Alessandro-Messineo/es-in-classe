@@ -304,14 +304,29 @@ const message = "JavaScript è fantastico";
 
 //Filtra i prodotti in stock
 
+// const prodotti = [
+//   { nome: "Laptop", inStock: true },
+//   { nome: "Mouse", inStock: false },
+//   { nome: "Tastiera", inStock: true },
+//   { nome: "Monitor", inStock: false }
+// ];
+// // Filtra solo i prodotti in magazzino (inStock: true).
+
+// let a = prodotti.filter(e => e.inStock=== true);
+
+// console.log(a);
+
+
+// Estrai i nomi dei prodotti
+// Dato lo stesso array prodotti, crea un array con solo i nomi dei prodotti.
+
 const prodotti = [
   { nome: "Laptop", inStock: true },
   { nome: "Mouse", inStock: false },
   { nome: "Tastiera", inStock: true },
   { nome: "Monitor", inStock: false }
 ];
-// Filtra solo i prodotti in magazzino (inStock: true).
 
-let a = prodotti.filter(e => e.inStock=== true);
+let a = prodotti.map(e => e.nome);
 
 console.log(a);
