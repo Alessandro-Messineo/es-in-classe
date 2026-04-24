@@ -334,16 +334,36 @@ const message = "JavaScript è fantastico";
 
 // Trova il primo utente premium
 
-const utenti = [
-  { nome: "Luca", isPremium: false },
-  { nome: "Anna", isPremium: true },
-  { nome: "Marco", isPremium: false },
-  { nome: "Giada", isPremium: true }
+// const utenti = [
+//   { nome: "Luca", isPremium: false },
+//   { nome: "Anna", isPremium: true },
+//   { nome: "Marco", isPremium: false },
+//   { nome: "Giada", isPremium: true }
+// ];
+
+// let a = utenti.find(e=> e.isPremium === true);
+
+// console.log(a);
+
+
+// Stampa i nomi in maiuscolo
+
+const studenti = [
+  { nome: "mario", eta: 20 },
+  { nome: "luca", eta: 22 },
+  { nome: "chiara", eta: 19 }
 ];
+// Usa forEach per stampare in console il nome di ogni studente con la prima lettera maiuscola (es. "Mario", "Luca", "Chiara").
+// Output in console:
 
-let a = utenti.find(e=> e.isPremium === true);
+// text
+// Mario
+// Luca
+// Chiara
 
-console.log(a);
 
-
+studenti.forEach(stud => {
+  const capitalized = stud.nome.charAt(0).toUpperCase() + stud.nome.slice(1);
+  console.log(capitalized);
+});
 
