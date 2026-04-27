@@ -19,6 +19,11 @@ const message = "JavaScript è fantastico";
 // =======================
 
 // 1) Stampa tutti i nomi
+
+const a = employees.map(e => e.name)
+console.log(a);
+
+
 // 2) Stampa solo chi è in ferie
 // 3) Stampa i nomi di chi è in ferie
 // 4) Trova il primo over 50
@@ -370,20 +375,20 @@ const message = "JavaScript è fantastico";
 
 // Crea un array con nome e prezzo scontato
 
-const prodotti = [
-  { nome: "Laptop", prezzo: 1000 },
-  { nome: "Mouse", prezzo: 25 },
-  { nome: "Tastiera", prezzo: 70 }
-];
-// Calcola per ogni prodotto il prezzo scontato del 10% e crea un nuovo array di oggetti con { nome, prezzoScontato }.
+// const prodotti = [
+//   { nome: "Laptop", prezzo: 1000 },
+//   { nome: "Mouse", prezzo: 25 },
+//   { nome: "Tastiera", prezzo: 70 }
+// ];
+// // Calcola per ogni prodotto il prezzo scontato del 10% e crea un nuovo array di oggetti con { nome, prezzoScontato }.
 
-[
-  { nome: "Laptop", prezzoScontato: 900 },
-  { nome: "Mouse", prezzoScontato: 22.5 },
-  { nome: "Tastiera", prezzoScontato: 63 }
-]
+// [
+//   { nome: "Laptop", prezzoScontato: 900 },
+//   { nome: "Mouse", prezzoScontato: 22.5 },
+//   { nome: "Tastiera", prezzoScontato: 63 }
+// ]
 
 
-const b =prodotti.map(e =>({nome: e.nome, prezzoScontato: e.prezzo-(e.prezzo*10)/100}))
+// const b =prodotti.map(e =>({nome: e.nome, prezzoScontato: e.prezzo-(e.prezzo*10)/100}))
 
-console.log(b);
+// console.log(b);
