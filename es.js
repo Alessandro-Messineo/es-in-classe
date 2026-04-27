@@ -30,18 +30,24 @@ const message = "JavaScript è fantastico";
 
 // 3) Stampa i nomi di chi è in ferie
 
-let a =[];
+// let a =[];
 
-for(let i =0; i<employees.length; i++){
-  if(employees[i].onHoliday === true){
-    a.push(employees[i].name);
-  }
-}
+// for(let i =0; i<employees.length; i++){
+//   if(employees[i].onHoliday === true){
+//     a.push(employees[i].name);
+//   }
+// }
+
+// console.log(a);
+
+
+// 4) Trova il primo over 50
+
+const a = employees.find(e => e.age>50);
 
 console.log(a);
 
 
-// 4) Trova il primo over 50
 // 5) Verifica se tutti sono maggiorenni
 // 6) Verifica se almeno uno è in ferie
 // 7) Ordina per età crescente
