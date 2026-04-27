@@ -20,11 +20,14 @@ const message = "JavaScript è fantastico";
 
 // 1) Stampa tutti i nomi
 
-const a = employees.map(e => e.name)
-console.log(a);
-
+// const a = employees.map(e => e.name)
+// console.log(a);
 
 // 2) Stampa solo chi è in ferie
+
+const a = employees.filter(e => e.onHoliday === true);
+console.log(a);
+
 // 3) Stampa i nomi di chi è in ferie
 // 4) Trova il primo over 50
 // 5) Verifica se tutti sono maggiorenni
