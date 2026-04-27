@@ -43,12 +43,16 @@ const message = "JavaScript è fantastico";
 
 // 4) Trova il primo over 50
 
-const a = employees.find(e => e.age>50);
+// const a = employees.find(e => e.age>50);
 
-console.log(a);
-
+// console.log(a);
 
 // 5) Verifica se tutti sono maggiorenni
+
+const allAdults = employees.every(emp => emp.age >= 18);
+
+console.log(allAdults); 
+
 // 6) Verifica se almeno uno è in ferie
 // 7) Ordina per età crescente
 // 8) Ordina per età decrescente
