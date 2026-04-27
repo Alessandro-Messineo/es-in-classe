@@ -49,11 +49,16 @@ const message = "JavaScript è fantastico";
 
 // 5) Verifica se tutti sono maggiorenni
 
-const allAdults = employees.every(emp => emp.age >= 18);
+// const allAdults = employees.every(emp => emp.age >= 18);
 
-console.log(allAdults); 
+// console.log(allAdults); 
 
 // 6) Verifica se almeno uno è in ferie
+
+const a = employees.some(e => e.onHoliday);
+
+console.log(a);
+
 // 7) Ordina per età crescente
 // 8) Ordina per età decrescente
 // 9) Calcola età media
