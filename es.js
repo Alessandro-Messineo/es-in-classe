@@ -25,10 +25,22 @@ const message = "JavaScript è fantastico";
 
 // 2) Stampa solo chi è in ferie
 
-const a = employees.filter(e => e.onHoliday === true);
-console.log(a);
+// const a = employees.filter(e => e.onHoliday === true);
+// console.log(a);
 
 // 3) Stampa i nomi di chi è in ferie
+
+let a =[];
+
+for(let i =0; i<employees.length; i++){
+  if(employees[i].onHoliday === true){
+    a.push(employees[i].name);
+  }
+}
+
+console.log(a);
+
+
 // 4) Trova il primo over 50
 // 5) Verifica se tutti sono maggiorenni
 // 6) Verifica se almeno uno è in ferie
