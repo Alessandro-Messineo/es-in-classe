@@ -75,15 +75,19 @@ const message = "JavaScript è fantastico";
 
 // 10) Calcola somma delle età
 
-let totalAge = 0;
+// let totalAge = 0;
 
-for (const emp of employees) {
-    totalAge += emp.age;
-}
+// for (const emp of employees) {
+//     totalAge += emp.age;
+// }
 
-console.log(totalAge);
+// console.log(totalAge);
 
 // 11) Ritorna un array solo con le età
+
+const ages = employees.map(emp => emp.age);
+
+console.log(ages);
 
 // 12) Aggiungi una proprietà "city" a tutti (senza mutare)
 // const a = employees.map( e => ({...e, city: "palemmmu"}));
