@@ -85,14 +85,25 @@ const message = "JavaScript è fantastico";
 
 // 11) Ritorna un array solo con le età
 
-const ages = employees.map(emp => emp.age);
+// const ages = employees.map(emp => emp.age);
 
-console.log(ages);
+// console.log(ages);
 
 // 12) Aggiungi una proprietà "city" a tutti (senza mutare)
 // const a = employees.map( e => ({...e, city: "palemmmu"}));
 
 // 13) Conta quanti sono in ferie
+
+let count = 0;
+
+for (const emp of employees) {
+    if (emp.onHoliday) {
+        count++;
+    }
+}
+
+console.log(count);
+
 // 14) Rimuovi chi ha meno di 30 anni
 // 15) Trova l’employee più giovane
 // 16) Trova l’employee più anziano
