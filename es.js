@@ -63,17 +63,26 @@ const message = "JavaScript è fantastico";
 // 8) Ordina per età decrescente
 // 9) Calcola età media
 
-let totalAge = 0;
+// let totalAge = 0;
 
-for (let i = 0; i < employees.length; i++) {
-    totalAge += employees[i].age;
-}
+// for (let i = 0; i < employees.length; i++) {
+//     totalAge += employees[i].age;
+// }
 
-const averageAge = totalAge / employees.length;
+// const averageAge = totalAge / employees.length;
 
-console.log(averageAge);
+// console.log(averageAge);
 
 // 10) Calcola somma delle età
+
+let totalAge = 0;
+
+for (const emp of employees) {
+    totalAge += emp.age;
+}
+
+console.log(totalAge);
+
 // 11) Ritorna un array solo con le età
 
 // 12) Aggiungi una proprietà "city" a tutti (senza mutare)
