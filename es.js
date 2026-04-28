@@ -94,17 +94,22 @@ const message = "JavaScript è fantastico";
 
 // 13) Conta quanti sono in ferie
 
-let count = 0;
+// let count = 0;
 
-for (const emp of employees) {
-    if (emp.onHoliday) {
-        count++;
-    }
-}
+// for (const emp of employees) {
+//     if (emp.onHoliday) {
+//         count++;
+//     }
+// }
 
-console.log(count);
+// console.log(count);
 
 // 14) Rimuovi chi ha meno di 30 anni
+
+const over30 = employees.filter(emp => emp.age >= 30);
+
+console.log(over30);
+
 // 15) Trova l’employee più giovane
 // 16) Trova l’employee più anziano
 // 17) Verifica se esiste un employee di nome "Jim"
