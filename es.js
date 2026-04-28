@@ -55,13 +55,24 @@ const message = "JavaScript è fantastico";
 
 // 6) Verifica se almeno uno è in ferie
 
-const a = employees.some(e => e.onHoliday);
+// const a = employees.some(e => e.onHoliday);
 
-console.log(a);
+// console.log(a);
 
 // 7) Ordina per età crescente
 // 8) Ordina per età decrescente
 // 9) Calcola età media
+
+let totalAge = 0;
+
+for (let i = 0; i < employees.length; i++) {
+    totalAge += employees[i].age;
+}
+
+const averageAge = totalAge / employees.length;
+
+console.log(averageAge);
+
 // 10) Calcola somma delle età
 // 11) Ritorna un array solo con le età
 
