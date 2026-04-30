@@ -106,9 +106,9 @@ const message = "JavaScript è fantastico";
 
 // 14) Rimuovi chi ha meno di 30 anni
 
-const over30 = employees.filter(emp => emp.age >= 30);
+// const over30 = employees.filter(emp => emp.age >= 30);
 
-console.log(over30);
+// console.log(over30);
 
 // 15) Trova l’employee più giovane
 // 16) Trova l’employee più anziano
@@ -245,6 +245,9 @@ console.log(over30);
 // =======================
 
 // 46) Stampa la stringa
+
+console.log(message);
+
 // 47) Trasforma in maiuscolo
 // 48) Trasforma in minuscolo
 // 49) Conta i caratteri (spazi inclusi)
