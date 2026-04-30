@@ -250,9 +250,12 @@ const message = "JavaScript è fantastico";
 
 // 47) Trasforma in maiuscolo
 
-console.log(message.toUpperCase());
+// console.log(message.toUpperCase());
 
 // 48) Trasforma in minuscolo
+
+console.log(message.toLowerCase());
+
 // 49) Conta i caratteri (spazi inclusi)
 // 50) Conta i caratteri (senza spazi)
 // 51) Verifica se contiene "JavaScript"
