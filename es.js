@@ -246,9 +246,12 @@ const message = "JavaScript è fantastico";
 
 // 46) Stampa la stringa
 
-console.log(message);
+// console.log(message);
 
 // 47) Trasforma in maiuscolo
+
+console.log(message.toUpperCase());
+
 // 48) Trasforma in minuscolo
 // 49) Conta i caratteri (spazi inclusi)
 // 50) Conta i caratteri (senza spazi)
