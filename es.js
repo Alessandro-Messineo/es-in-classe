@@ -258,9 +258,16 @@ const message = "JavaScript è fantastico";
 
 // 49) Conta i caratteri (spazi inclusi)
 
-console.log(message.length);
+// console.log(message.length);
 
 // 50) Conta i caratteri (senza spazi)
+
+const a = message.replace(/\s/g, "");
+
+const length = a.length;
+
+console.log(length);
+
 // 51) Verifica se contiene "JavaScript"
 // 52) Sostituisci "fantastico" con "potente"
 // 53) Estrai la parola "JavaScript"
