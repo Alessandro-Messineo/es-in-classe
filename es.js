@@ -254,9 +254,12 @@ const message = "JavaScript è fantastico";
 
 // 48) Trasforma in minuscolo
 
-console.log(message.toLowerCase());
+// console.log(message.toLowerCase());
 
 // 49) Conta i caratteri (spazi inclusi)
+
+console.log(message.length);
+
 // 50) Conta i caratteri (senza spazi)
 // 51) Verifica se contiene "JavaScript"
 // 52) Sostituisci "fantastico" con "potente"
