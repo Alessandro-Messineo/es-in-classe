@@ -274,11 +274,16 @@ const message = "JavaScript è fantastico";
 
 // 52) Sostituisci "fantastico" con "potente"
 
-a = message.replace("fantastico", "potente");
+// a = message.replace("fantastico", "potente");
+
+// console.log(a);
+
+// 53) Estrai la parola "JavaScript"
+
+const a = message.split(" ")[0];
 
 console.log(a);
 
-// 53) Estrai la parola "JavaScript"
 // 54) Dividi la stringa in parole
 // 55) Unisci le parole con "-"
 
