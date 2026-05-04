@@ -286,11 +286,15 @@ const message = "JavaScript è fantastico";
 
 // 54) Dividi la stringa in parole
 
-const parole = message.split(" ");
+// const parole = message.split(" ");
 
-console.log(parole);
+// console.log(parole);
 
 // 55) Unisci le parole con "-"
+
+const risultato = message.split(" ").join("-");
+
+console.log(risultato); 
 
 // 56) Inverti la stringa
 // 57) Ripeti la stringa 3 volte
