@@ -262,13 +262,16 @@ const message = "JavaScript è fantastico";
 
 // 50) Conta i caratteri (senza spazi)
 
-const a = message.replace(/\s/g, "");
+// const a = message.replace(/\s/g, "");
 
-const length = a.length;
+// const length = a.length;
 
-console.log(length);
+// console.log(length);
 
 // 51) Verifica se contiene "JavaScript"
+
+console.log(message.includes("JavaScript"));
+
 // 52) Sostituisci "fantastico" con "potente"
 // 53) Estrai la parola "JavaScript"
 // 54) Dividi la stringa in parole
