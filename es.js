@@ -280,11 +280,16 @@ const message = "JavaScript è fantastico";
 
 // 53) Estrai la parola "JavaScript"
 
-const a = message.split(" ")[0];
+// const a = message.split(" ")[0];
 
-console.log(a);
+// console.log(a);
 
 // 54) Dividi la stringa in parole
+
+const parole = message.split(" ");
+
+console.log(parole);
+
 // 55) Unisci le parole con "-"
 
 // 56) Inverti la stringa
