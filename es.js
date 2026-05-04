@@ -270,9 +270,14 @@ const message = "JavaScript è fantastico";
 
 // 51) Verifica se contiene "JavaScript"
 
-console.log(message.includes("JavaScript"));
+// console.log(message.includes("JavaScript"));
 
 // 52) Sostituisci "fantastico" con "potente"
+
+a = message.replace("fantastico", "potente");
+
+console.log(a);
+
 // 53) Estrai la parola "JavaScript"
 // 54) Dividi la stringa in parole
 // 55) Unisci le parole con "-"
