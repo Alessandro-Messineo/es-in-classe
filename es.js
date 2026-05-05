@@ -292,11 +292,16 @@ const message = "JavaScript è fantastico";
 
 // 55) Unisci le parole con "-"
 
-const risultato = message.split(" ").join("-");
+// const risultato = message.split(" ").join("-");
 
-console.log(risultato); 
+// console.log(risultato); 
 
 // 56) Inverti la stringa
+
+const a = message.split('').reverse().join('');
+
+console.log(a);
+
 // 57) Ripeti la stringa 3 volte
 // 58) Controlla se inizia con "Java"
 // 59) Controlla se finisce con "co"
