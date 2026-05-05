@@ -304,11 +304,16 @@ const message = "JavaScript è fantastico";
 
 // 57) Ripeti la stringa 3 volte
 
-const a = message.repeat(3);
+// const a = message.repeat(3);
+
+// console.log(a);
+
+// 58) Controlla se inizia con "Java"
+
+const a = message.startsWith("Java");
 
 console.log(a);
 
-// 58) Controlla se inizia con "Java"
 // 59) Controlla se finisce con "co"
 // 60) Rimuovi gli spazi iniziali e finali
 // 61) Conta quante volte appare la lettera "a"
