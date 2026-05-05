@@ -298,11 +298,16 @@ const message = "JavaScript è fantastico";
 
 // 56) Inverti la stringa
 
-const a = message.split('').reverse().join('');
+// const a = message.split('').reverse().join('');
+
+// console.log(a);
+
+// 57) Ripeti la stringa 3 volte
+
+const a = message.repeat(3);
 
 console.log(a);
 
-// 57) Ripeti la stringa 3 volte
 // 58) Controlla se inizia con "Java"
 // 59) Controlla se finisce con "co"
 // 60) Rimuovi gli spazi iniziali e finali
