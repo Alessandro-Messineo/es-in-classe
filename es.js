@@ -329,11 +329,14 @@ const message = "JavaScript è fantastico";
 
 // 62) Trasforma solo la prima lettera in maiuscolo
 
-const firstUpper = message.charAt(0).toUpperCase() + message.slice(1);
+// const firstUpper = message.charAt(0).toUpperCase() + message.slice(1);
 
-console.log(firstUpper);
+// console.log(firstUpper);
 
 // 63) Ritorna la stringa come array di caratteri
+
+console.log(message.split(""));
+
 // 64) Sostituisci tutte le "a" con "*"
 // 65) Tronca la stringa a 10 caratteri
 
