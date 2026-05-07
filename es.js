@@ -339,9 +339,11 @@ const message = "JavaScript è fantastico";
 
 // 64) Sostituisci tutte le "a" con "*"
 
-console.log(message.replaceAll("a", "*"));
+// console.log(message.replaceAll("a", "*"));
 
 // 65) Tronca la stringa a 10 caratteri
+
+// console.log(message.slice(0, 10));
 
 
 // =======================
