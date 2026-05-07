@@ -310,11 +310,14 @@ const message = "JavaScript è fantastico";
 
 // 58) Controlla se inizia con "Java"
 
-const a = message.startsWith("Java");
+// const a = message.startsWith("Java");
 
-console.log(a);
+// console.log(a);
 
 // 59) Controlla se finisce con "co"
+
+console.log(message.endsWith("co"));
+
 // 60) Rimuovi gli spazi iniziali e finali
 // 61) Conta quante volte appare la lettera "a"
 // 62) Trasforma solo la prima lettera in maiuscolo
