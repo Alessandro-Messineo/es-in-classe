@@ -323,6 +323,10 @@ const message = "JavaScript è fantastico";
 // console.log(message.trim());
 
 // 61) Conta quante volte appare la lettera "a"
+
+const countA = (message.match(/a/g) || []).length;
+console.log(countA);
+
 // 62) Trasforma solo la prima lettera in maiuscolo
 // 63) Ritorna la stringa come array di caratteri
 // 64) Sostituisci tutte le "a" con "*"
