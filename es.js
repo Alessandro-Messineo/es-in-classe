@@ -316,9 +316,12 @@ const message = "JavaScript è fantastico";
 
 // 59) Controlla se finisce con "co"
 
-console.log(message.endsWith("co"));
+// console.log(message.endsWith("co"));
 
 // 60) Rimuovi gli spazi iniziali e finali
+
+// console.log(message.trim());
+
 // 61) Conta quante volte appare la lettera "a"
 // 62) Trasforma solo la prima lettera in maiuscolo
 // 63) Ritorna la stringa come array di caratteri
