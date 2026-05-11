@@ -381,17 +381,45 @@ const message = "JavaScript è fantastico";
 
 // 82) If/else: pari o dispari
 
-for (let index = 0; index < numbers.length; index++) {
-    if(numbers[index] %2==0){
-        console.log(numbers[index] + " è pari");
-    }else{
-        console.log(numbers[index] + " è dispari");
-    }
-}
-
+// for (let index = 0; index < numbers.length; index++) {
+//     if(numbers[index] %2==0){
+//         console.log(numbers[index] + " è pari");
+//     }else{
+//         console.log(numbers[index] + " è dispari");
+//     }
+// }
 
 // 83) Ternario: maggiore o minore
 // 84) Switch con giorni della settimana
+
+const giorno = 3;
+
+switch (giorno) {
+  case 1:
+    console.log("Lunedì");
+    break;
+  case 2:
+    console.log("Martedì");
+    break;
+  case 3:
+    console.log("Mercoledì");
+    break;
+  case 4:
+    console.log("Giovedì");
+    break;
+  case 5:
+    console.log("Venerdì");
+    break;
+  case 6:
+    console.log("Sabato");
+    break;
+  case 7:
+    console.log("Domenica");
+    break;
+  default:
+    console.log("Giorno non valido");
+}
+
 // 85) For: stampa numeri da 1 a 10
 // 86) For: stampa solo numeri pari
 // 87) While: conta da 5 a 0
