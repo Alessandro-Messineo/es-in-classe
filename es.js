@@ -437,14 +437,22 @@ const message = "JavaScript è fantastico";
 
 // 87) While: conta da 5 a 0
 
-let count =5;
+// let count =5;
 
-while(count >=0){
-    console.log(count);
-    count--;
-}
+// while(count >=0){
+//     console.log(count);
+//     count--;
+// }
 
 // 88) Do while: stampa almeno una volta
+
+let numero = 5;
+
+do {
+  console.log("Il numero è:", numero);
+  numero--;
+} while (numero < 0);
+
 // 89) For of su numbers
 // 90) For in su un employee
 // 91) Break in un ciclo
