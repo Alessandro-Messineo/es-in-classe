@@ -422,12 +422,19 @@ const message = "JavaScript è fantastico";
 
 // 85) For: stampa numeri da 1 a 10
 
-for (let index = 1; index < 11; index++) {
-    console.log(index);
+// for (let index = 1; index < 11; index++) {
+//     console.log(index);
     
-}
+// }
 
 // 86) For: stampa solo numeri pari
+
+for (let index = 0; index <= 50; index++) {
+    if(index %2 == 0){
+        console.log(index);
+    }
+}
+
 // 87) While: conta da 5 a 0
 // 88) Do while: stampa almeno una volta
 // 89) For of su numbers
