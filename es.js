@@ -373,13 +373,23 @@ const message = "JavaScript è fantastico";
 
 // 81) If: controlla se un numero è > 10
 
+// for (let index = 0; index < numbers.length; index++) {
+//     if(numbers[index] >10){
+//         console.log(numbers[index] + ": è maggiore di 10");
+//     }
+// }
+
+// 82) If/else: pari o dispari
+
 for (let index = 0; index < numbers.length; index++) {
-    if(numbers[index] >10){
-        console.log(numbers[index] + ": è maggiore di 10");
+    if(numbers[index] %2==0){
+        console.log(numbers[index] + " è pari");
+    }else{
+        console.log(numbers[index] + " è dispari");
     }
 }
 
-// 82) If/else: pari o dispari
+
 // 83) Ternario: maggiore o minore
 // 84) Switch con giorni della settimana
 // 85) For: stampa numeri da 1 a 10
