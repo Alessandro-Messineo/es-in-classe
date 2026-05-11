@@ -429,13 +429,21 @@ const message = "JavaScript è fantastico";
 
 // 86) For: stampa solo numeri pari
 
-for (let index = 0; index <= 50; index++) {
-    if(index %2 == 0){
-        console.log(index);
-    }
-}
+// for (let index = 0; index <= 50; index++) {
+//     if(index %2 == 0){
+//         console.log(index);
+//     }
+// }
 
 // 87) While: conta da 5 a 0
+
+let count =5;
+
+while(count >=0){
+    console.log(count);
+    count--;
+}
+
 // 88) Do while: stampa almeno una volta
 // 89) For of su numbers
 // 90) For in su un employee
