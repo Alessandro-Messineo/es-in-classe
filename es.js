@@ -446,14 +446,19 @@ const message = "JavaScript è fantastico";
 
 // 88) Do while: stampa almeno una volta
 
-let numero = 5;
+// let numero = 5;
 
-do {
-  console.log("Il numero è:", numero);
-  numero--;
-} while (numero < 0);
+// do {
+//   console.log("Il numero è:", numero);
+//   numero--;
+// } while (numero < 0);
 
 // 89) For of su numbers
+
+for (const num of numbers) {
+  console.log(num);
+}
+
 // 90) For in su un employee
 // 91) Break in un ciclo
 // 92) Continue in un ciclo
