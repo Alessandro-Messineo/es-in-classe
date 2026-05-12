@@ -503,6 +503,14 @@ const message = "JavaScript è fantastico";
 
 // 95) Controlla il tipo di una variabile
 
+let age = 25;
+
+console.log(typeof age);      
+console.log(typeof 'Ciao');   
+console.log(typeof true); 
+console.log(typeof []);
+console.log(typeof {});
+
 
 /////////////////////////////////
 
