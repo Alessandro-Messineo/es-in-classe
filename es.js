@@ -461,21 +461,30 @@ const message = "JavaScript è fantastico";
 
 // 90) For in su un employee
 
-for (let key in employee) {
-    console.log(key, employee[key]);
-}
+// for (let key in employee) {
+//     console.log(key, employee[key]);
+// }
 
 // 91) Break in un ciclo
 
-for (let i = 1; i <= 10; i++) {
-    if (i === 5) {
-        break;
+// for (let i = 1; i <= 10; i++) {
+//     if (i === 5) {
+//         break;
+//     }
+
+//     console.log(i);
+// }
+
+// 92) Continue in un ciclo
+
+for (let i = 1; i <= 5; i++) {
+    if (i === 3) {
+        continue;
     }
 
     console.log(i);
 }
 
-// 92) Continue in un ciclo
 // 93) Controlla se una variabile è undefined
 // 94) Controlla se una variabile è null
 // 95) Controlla il tipo di una variabile
