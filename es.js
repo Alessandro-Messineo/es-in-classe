@@ -466,6 +466,15 @@ for (let key in employee) {
 }
 
 // 91) Break in un ciclo
+
+for (let i = 1; i <= 10; i++) {
+    if (i === 5) {
+        break;
+    }
+
+    console.log(i);
+}
+
 // 92) Continue in un ciclo
 // 93) Controlla se una variabile è undefined
 // 94) Controlla se una variabile è null
