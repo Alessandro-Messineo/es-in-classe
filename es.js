@@ -455,11 +455,16 @@ const message = "JavaScript è fantastico";
 
 // 89) For of su numbers
 
-for (const num of numbers) {
-  console.log(num);
-}
+// for (const num of numbers) {
+//   console.log(num);
+// }
 
 // 90) For in su un employee
+
+for (let key in employee) {
+    console.log(key, employee[key]);
+}
+
 // 91) Break in un ciclo
 // 92) Continue in un ciclo
 // 93) Controlla se una variabile è undefined
