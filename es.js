@@ -487,13 +487,20 @@ const message = "JavaScript è fantastico";
 
 // 93) Controlla se una variabile è undefined
 
-let value;
+// let value;
 
-if (value === undefined) {
-    console.log('La variabile è undefined');
-}
+// if (value === undefined) {
+//     console.log('La variabile è undefined');
+// }
 
 // 94) Controlla se una variabile è null
+
+// let data = null;
+
+// if (data === null) {
+//     console.log('La variabile è null');
+// }
+
 // 95) Controlla il tipo di una variabile
 
 
