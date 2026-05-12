@@ -477,15 +477,22 @@ const message = "JavaScript è fantastico";
 
 // 92) Continue in un ciclo
 
-for (let i = 1; i <= 5; i++) {
-    if (i === 3) {
-        continue;
-    }
+// for (let i = 1; i <= 5; i++) {
+//     if (i === 3) {
+//         continue;
+//     }
 
-    console.log(i);
-}
+//     console.log(i);
+// }
 
 // 93) Controlla se una variabile è undefined
+
+let value;
+
+if (value === undefined) {
+    console.log('La variabile è undefined');
+}
+
 // 94) Controlla se una variabile è null
 // 95) Controlla il tipo di una variabile
 
