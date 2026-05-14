@@ -352,14 +352,20 @@ const message = "JavaScript è fantastico";
 
 // 66) Funzione che somma due numeri
 
-function somma(a,b) {
-    return a+b;
-}
+// function somma(a,b) {
+//     return a+b;
+// }
 
-console.log(somma(5,3));
-
+// console.log(somma(5,3));
 
 // 67) Funzione che sottrae due numeri
+
+function sottrazione(a,b) {
+    return a-b;
+}
+
+console.log(sottrazione(5,3));
+
 // 68) Funzione che moltiplica due numeri
 // 69) Funzione che divide due numeri
 // 70) Funzione che verifica se un numero è pari
