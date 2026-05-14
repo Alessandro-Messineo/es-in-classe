@@ -376,13 +376,24 @@ const message = "JavaScript è fantastico";
 
 // 69) Funzione che divide due numeri
 
-function divisione(a,b) {
-    return a/b;
-}
+// function divisione(a,b) {
+//     return a/b;
+// }
 
-console.log(divisione(6,3));
+// console.log(divisione(6,3));
 
 // 70) Funzione che verifica se un numero è pari
+
+function pari(a){
+    if(a%2===0){
+        return "il numero è pari";
+    }else{
+        return "il numero non è pari";
+    }
+}
+
+console.log(pari(6));
+
 // 71) Funzione che ritorna il maggiore di due numeri
 // 72) Funzione che ritorna una stringa
 // 73) Funzione con parametro di default
