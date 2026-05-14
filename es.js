@@ -351,6 +351,14 @@ const message = "JavaScript è fantastico";
 // =======================
 
 // 66) Funzione che somma due numeri
+
+function somma(a,b) {
+    return a+b;
+}
+
+console.log(somma(5,3));
+
+
 // 67) Funzione che sottrae due numeri
 // 68) Funzione che moltiplica due numeri
 // 69) Funzione che divide due numeri
@@ -503,13 +511,13 @@ const message = "JavaScript è fantastico";
 
 // 95) Controlla il tipo di una variabile
 
-let age = 25;
+// let age = 25;
 
-console.log(typeof age);      
-console.log(typeof 'Ciao');   
-console.log(typeof true); 
-console.log(typeof []);
-console.log(typeof {});
+// console.log(typeof age);      
+// console.log(typeof 'Ciao');   
+// console.log(typeof true); 
+// console.log(typeof []);
+// console.log(typeof {});
 
 
 /////////////////////////////////
