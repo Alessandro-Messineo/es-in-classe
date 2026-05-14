@@ -368,13 +368,20 @@ const message = "JavaScript è fantastico";
 
 // 68) Funzione che moltiplica due numeri
 
-function moltiplica(a,b) {
-    return a*b;
-}
+// function moltiplica(a,b) {
+//     return a*b;
+// }
 
-console.log(moltiplica(5,3));
+// console.log(moltiplica(5,3));
 
 // 69) Funzione che divide due numeri
+
+function divisione(a,b) {
+    return a/b;
+}
+
+console.log(divisione(6,3));
+
 // 70) Funzione che verifica se un numero è pari
 // 71) Funzione che ritorna il maggiore di due numeri
 // 72) Funzione che ritorna una stringa
