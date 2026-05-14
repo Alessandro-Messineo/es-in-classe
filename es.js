@@ -360,13 +360,20 @@ const message = "JavaScript è fantastico";
 
 // 67) Funzione che sottrae due numeri
 
-function sottrazione(a,b) {
-    return a-b;
-}
+// function sottrazione(a,b) {
+//     return a-b;
+// }
 
-console.log(sottrazione(5,3));
+// console.log(sottrazione(5,3));
 
 // 68) Funzione che moltiplica due numeri
+
+function moltiplica(a,b) {
+    return a*b;
+}
+
+console.log(moltiplica(5,3));
+
 // 69) Funzione che divide due numeri
 // 70) Funzione che verifica se un numero è pari
 // 71) Funzione che ritorna il maggiore di due numeri
