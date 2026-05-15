@@ -384,17 +384,28 @@ const message = "JavaScript è fantastico";
 
 // 70) Funzione che verifica se un numero è pari
 
-function pari(a){
-    if(a%2===0){
-        return "il numero è pari";
+// function pari(a){
+//     if(a%2===0){
+//         return "il numero è pari";
+//     }else{
+//         return "il numero non è pari";
+//     }
+// }
+
+// console.log(pari(6));
+
+// 71) Funzione che ritorna il maggiore di due numeri
+
+function maggiore(a,b){
+    if(a > b){
+        return a + " è maggiore";
     }else{
-        return "il numero non è pari";
+        return a + " è maggiore";
     }
 }
 
-console.log(pari(6));
+console.log(maggiore(6,1));
 
-// 71) Funzione che ritorna il maggiore di due numeri
 // 72) Funzione che ritorna una stringa
 // 73) Funzione con parametro di default
 // 74) Funzione che ritorna un oggetto
