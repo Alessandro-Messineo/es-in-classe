@@ -416,13 +416,23 @@ const message = "JavaScript è fantastico";
 
 // 73) Funzione con parametro di default
 
-function saluta(nome = "Utente") {
-  return "Ciao " + nome + "!";
-}
+// function saluta(nome = "Utente") {
+//   return "Ciao " + nome + "!";
+// }
 
-console.log(stringa);
+// console.log(stringa);
 
 // 74) Funzione che ritorna un oggetto
+
+function persona(nome, eta) {
+  return {
+    nome: nome,
+    eta: eta
+  };
+}
+
+console.log(persona("alex",24));
+
 // 75) Funzione che ritorna un array
 // 76) Funzione che accetta callback
 // 77) Funzione che ritorna un’altra funzione
