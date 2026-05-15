@@ -396,17 +396,24 @@ const message = "JavaScript è fantastico";
 
 // 71) Funzione che ritorna il maggiore di due numeri
 
-function maggiore(a,b){
-    if(a > b){
-        return a + " è maggiore";
-    }else{
-        return a + " è maggiore";
-    }
-}
+// function maggiore(a,b){
+//     if(a > b){
+//         return a + " è maggiore";
+//     }else{
+//         return a + " è maggiore";
+//     }
+// }
 
-console.log(maggiore(6,1));
+// console.log(maggiore(6,1));
 
 // 72) Funzione che ritorna una stringa
+
+function stringa(){
+    return "ciao"
+}
+
+console.log(stringa);
+
 // 73) Funzione con parametro di default
 // 74) Funzione che ritorna un oggetto
 // 75) Funzione che ritorna un array
