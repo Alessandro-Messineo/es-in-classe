@@ -435,13 +435,24 @@ const message = "JavaScript è fantastico";
 
 // 75) Funzione che ritorna un array
 
-function array() {
-  return numbers;
-}
+// function array() {
+//   return numbers;
+// }
 
-console.log(array());
+// console.log(array());
 
 // 76) Funzione che accetta callback
+
+function eseguiOperazione(a, b, callback) {
+  return callback(a, b);
+}
+
+function somma(x, y) {
+  return x + y;
+}
+
+console.log(eseguiOperazione(5, 3, somma));
+
 // 77) Funzione che ritorna un’altra funzione
 // 78) Arrow function equivalente
 // 79) Funzione che usa rest parameters
