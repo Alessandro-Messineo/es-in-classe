@@ -455,18 +455,27 @@ const message = "JavaScript è fantastico";
 
 // 77) Funzione che ritorna un’altra funzione
 
-function moltiplicatore(fattore) {
-  return function(numero) {
-    return numero * fattore;
-  };
-}
+// function moltiplicatore(fattore) {
+//   return function(numero) {
+//     return numero * fattore;
+//   };
+// }
 
-const raddoppia = moltiplicatore(2);
+// const raddoppia = moltiplicatore(2);
 
-console.log(raddoppia(10));
+// console.log(raddoppia(10));
 
 
 // 78) Arrow function equivalente
+
+const moltiplicatoreArrow = (fattore) => {
+  return (numero) => numero * fattore;
+};
+
+const triplica = moltiplicatoreArrow(3);
+
+console.log(triplica(5));
+
 // 79) Funzione che usa rest parameters
 // 80) Funzione che usa spread operator
 
