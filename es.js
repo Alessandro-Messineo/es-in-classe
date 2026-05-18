@@ -443,17 +443,29 @@ const message = "JavaScript è fantastico";
 
 // 76) Funzione che accetta callback
 
-function eseguiOperazione(a, b, callback) {
-  return callback(a, b);
-}
+// function eseguiOperazione(a, b, callback) {
+//   return callback(a, b);
+// }
 
-function somma(x, y) {
-  return x + y;
-}
+// function somma(x, y) {
+//   return x + y;
+// }
 
-console.log(eseguiOperazione(5, 3, somma));
+// console.log(eseguiOperazione(5, 3, somma));
 
 // 77) Funzione che ritorna un’altra funzione
+
+function moltiplicatore(fattore) {
+  return function(numero) {
+    return numero * fattore;
+  };
+}
+
+const raddoppia = moltiplicatore(2);
+
+console.log(raddoppia(10));
+
+
 // 78) Arrow function equivalente
 // 79) Funzione che usa rest parameters
 // 80) Funzione che usa spread operator
