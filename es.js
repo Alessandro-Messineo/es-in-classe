@@ -424,16 +424,23 @@ const message = "JavaScript è fantastico";
 
 // 74) Funzione che ritorna un oggetto
 
-function persona(nome, eta) {
-  return {
-    nome: nome,
-    eta: eta
-  };
-}
+// function persona(nome, eta) {
+//   return {
+//     nome: nome,
+//     eta: eta
+//   };
+// }
 
-console.log(persona("alex",24));
+// console.log(persona("alex",24));
 
 // 75) Funzione che ritorna un array
+
+function array() {
+  return numbers;
+}
+
+console.log(array());
+
 // 76) Funzione che accetta callback
 // 77) Funzione che ritorna un’altra funzione
 // 78) Arrow function equivalente
