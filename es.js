@@ -478,13 +478,22 @@ const message = "JavaScript è fantastico";
 
 // 79) Funzione che usa rest parameters
 
-function sommaTutti(...numeri) {
-  return numeri.reduce((totale, n) => totale + n, 0);
-}
+// function sommaTutti(...numeri) {
+//   return numeri.reduce((totale, n) => totale + n, 0);
+// }
 
-console.log(sommaTutti(1, 2, 3, 4, 5));
+// console.log(sommaTutti(1, 2, 3, 4, 5));
 
 // 80) Funzione che usa spread operator
+
+// function unisciArray(arr1, arr2) {
+//   return [...arr1, ...arr2];
+// }
+
+// const array1 = [1, 2, 3];
+// const array2 = [4, 5, 6];
+
+// console.log(unisciArray(array1, array2));
 
 
 // =======================
