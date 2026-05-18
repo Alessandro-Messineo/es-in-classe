@@ -468,15 +468,22 @@ const message = "JavaScript è fantastico";
 
 // 78) Arrow function equivalente
 
-const moltiplicatoreArrow = (fattore) => {
-  return (numero) => numero * fattore;
-};
+// const moltiplicatoreArrow = (fattore) => {
+//   return (numero) => numero * fattore;
+// };
 
-const triplica = moltiplicatoreArrow(3);
+// const triplica = moltiplicatoreArrow(3);
 
-console.log(triplica(5));
+// console.log(triplica(5));
 
 // 79) Funzione che usa rest parameters
+
+function sommaTutti(...numeri) {
+  return numeri.reduce((totale, n) => totale + n, 0);
+}
+
+console.log(sommaTutti(1, 2, 3, 4, 5));
+
 // 80) Funzione che usa spread operator
 
 
